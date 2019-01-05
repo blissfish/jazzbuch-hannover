@@ -1,0 +1,132 @@
+<div style="text-align:center"><h1>{{ title }}</h1></div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a routerLink="/zeitreise" class="nav-link" href="#"
+          >Eine Zeitreise ...<span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item ">
+        <a routerLink="/njgh" class="nav-link" href="#"
+          >New Jazz Group Hannover<span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Hannover
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a
+            routerLink="/jazzgeschichte"
+            class="dropdown-item"
+            href="jazzgeschichte"
+            >Ein Stück Jazzgeschichte</a
+          >
+          <a routerLink="/allthatjazz" class="dropdown-item" href="allthatjazz"
+            >All That Jazz</a
+          >
+          <div class="dropdown-divider"></div>
+          <li class="dropdown-header">Dopperl CD</li>
+          <a
+            routerLink="/jazzgeschichte-cd"
+            class="dropdown-item"
+            href="jazzgeschichte-cd"
+            >Ein Stück Jazzgeschichte</a
+          >
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Projekte
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="dropdown-header">Bücher</li>
+          <a
+            routerLink="/atillazoller"
+            class="dropdown-item"
+            href="atillazoller"
+            >Atilla Zoller</a
+          >
+          <a routerLink="/heinzboth" class="dropdown-item" href="heinzboth"
+            >Heinz Both</a
+          >
+          <a routerLink="/juttahipp" class="dropdown-item" href="juttahipp"
+            >Jutta Hipp</a
+          >
+          <a
+            routerLink="/gudrunbecker"
+            class="dropdown-item"
+            href="gudrunbecker"
+            >Gudrun Becker</a
+          >
+          <a routerLink="/nsjf" class="dropdown-item" href="nsjf"
+            >North Sea Jazz Festival</a
+          >
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Medien
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="dropdown-header">Bilder</li>
+          <a routerLink="/galerie01" class="dropdown-item" href="galerie01"
+            >Galerie 1</a
+          >
+          <a routerLink="/galerie02" class="dropdown-item" href="galerie02"
+            >Galerie 2</a
+          >
+          <a routerLink="/galerie03" class="dropdown-item" href="galerie03"
+            >Galerie 3</a
+          >
+        </div>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/kontakt" class="nav-link" href="kontakt">Kontakt</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/links" class="nav-link" href="links">Links</a>
+      </li>
+    </ul>
+  </div>
+</nav>
