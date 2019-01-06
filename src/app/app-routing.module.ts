@@ -18,7 +18,7 @@ import { JazzGeschichteComponent } from "./projekte/jazz-geschichte-buch.compone
 import { JazzGeschichteCDComponent } from "./projekte/jazz-geschichte-cd.component";
 
 const routes: Routes = [
-  { path: "", redirectTo: "/zeitreise", pathMatch: "full" },
+  { path: "", component: ZeitreiseComponent },
   { path: "kontakt", component: KontaktComponent },
   { path: "zeitreise", component: ZeitreiseComponent },
   { path: "njgh", component: NjghComponent },
@@ -33,7 +33,8 @@ const routes: Routes = [
   { path: "jazzgeschichte", component: JazzGeschichteComponent },
   { path: "jazzgeschichte-cd", component: JazzGeschichteCDComponent },
   { path: "allthatjazz", component: AllThatJazzComponent },
-  { path: "links", component: LinksComponent }
+  { path: "links", component: LinksComponent },
+  { path: '**', redirectTo: "/zeitreise", pathMatch: "full" }
 ];
 
 @NgModule({
